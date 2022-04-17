@@ -1,0 +1,734 @@
+body
+{
+    background-image: url('assets/Main.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+}
+.page
+{
+    
+    height:95vh;
+    
+    width:98vw;
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    justify-content: space-between;
+        
+}
+
+.left
+{
+    
+    width: 25vw;
+    
+    height: 95vh;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: space-around;
+    
+}
+
+.left1
+{
+    height: 10vw;
+    
+    width : 5vw;
+    
+    padding: 0vw;
+    
+    padding-right: 20vw;
+    
+    margin: 0vw;
+
+    transition: .5s ease;
+
+}
+
+.left1Text
+{
+    
+    height: 3vh;
+    
+    width: 5vw;
+    
+    padding: 0vw;
+        
+    position: absolute;
+    
+    top: 8vh;
+    
+    left: 1vw;
+    
+    font-size: 3vw;
+    
+    transition: .5s ease;
+    
+}
+
+.left1Texthover
+{
+    
+    height: 5vh;
+    
+    width: 25vw;
+    
+    padding: 0vw;
+        
+    position: absolute;
+    
+    top: 10vh;
+    
+    left: 3vw;
+    
+    font-family: 'Fredericka the Great', cursive;
+    
+    font-size: 3vw;
+    
+    color: transparent;
+    
+    transition: .5s ease;
+
+}
+
+.left1TexthoverLink
+{
+    color: transparent;
+    text-decoration: none;
+    transition: .5s ease;
+    
+}
+
+
+.left1:hover
+{
+    
+    width : 25vw;
+       
+    padding-right: 0vw;
+            
+}
+
+.left1:hover .left1Text
+{
+    
+    display: none;
+        
+}
+
+.left1:hover .left1Texthover
+{
+    
+    color: black;
+        
+}
+
+.left1:hover .left1TexthoverLink
+{
+    
+    color: black;
+        
+}
+
+
+.left2
+{
+    height: 10vw;
+    
+    width : 5vw;
+    
+    padding: 0vw;
+    
+    padding-right: 20vw;
+    
+    margin: 0vw;
+
+    transition: .5s ease;
+
+}
+
+.left2Text
+{
+    
+    height: 3vh;
+    
+    width: 5vw;
+    
+    padding: 0vw;
+        
+    position: absolute;
+    
+    top: 32vh;
+    
+    left: 1vw;
+
+    font-size: 3vw;
+    
+    transition: .5s ease;
+    
+}
+
+.left2Texthover
+{
+    
+    height: 5vh;
+    
+    width: 25vw;
+    
+    padding: 0vw;
+        
+    position: absolute;
+    
+    top: 34vh;
+    
+    left: 3vw;
+    
+    font-family: 'Fredericka the Great', cursive;
+    
+    font-size: 3vw;
+    
+    color: transparent;
+    
+    transition: .5s ease;
+
+}
+
+.left2TexthoverLink
+{
+    color: transparent;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.left2:hover
+{
+    
+    width : 25vw;
+       
+    padding-right: 0vw;
+            
+}
+
+.left2:hover .left2Text
+{
+    
+    display: none;
+        
+}
+
+.left2:hover .left2Texthover
+{
+    
+    color: black;
+        
+}
+
+.left2:hover .left2TexthoverLink
+{
+    
+    color: black;
+        
+}
+
+.left3
+{
+    height: 10vw;
+    
+    width : 5vw;
+    
+    padding: 0vw;
+    
+    padding-right: 20vw;
+    
+    margin: 0vw;
+
+    transition: .5s ease;
+
+}
+
+.left3Text
+{
+    
+    height: 3vh;
+    
+    width: 5vw;
+    
+    padding: 0vw;
+        
+    position: absolute;
+    
+    top: 55vh;
+    
+    left: 1vw;
+    
+    font-size: 3vw;
+    
+    transition: .5s ease;
+    
+}
+
+.left3Texthover
+{
+    
+    height: 5vh;
+    
+    width: 25vw;
+    
+    padding: 0vw;
+        
+    position: absolute;
+    
+    top: 57vh;
+    
+    left: 3vw;
+    
+    font-family: 'Fredericka the Great', cursive;
+    
+    font-size: 3vw;
+    
+    color: transparent;
+    
+    transition: .5s ease;
+
+}
+
+.left3TexthoverLink
+{
+    color: transparent;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.left3:hover
+{
+    
+    width : 25vw;
+       
+    padding-right: 0vw;
+            
+}
+
+.left3:hover .left3Text
+{
+    
+    display: none;
+        
+}
+
+.left3:hover .left3Texthover
+{
+    
+    color: black;
+        
+}
+
+.left3:hover .left3TexthoverLink
+{
+    
+    color: black;
+        
+}
+
+.left4
+{
+    height: 10vw;
+    
+    width : 5vw;
+    
+    padding: 0vw;
+    
+    padding-right: 20vw;
+    
+    margin: 0vw;
+
+    transition: .5s ease;
+
+}
+
+.left4Text
+{
+    
+    height: 3vh;
+    
+    width: 5vw;
+    
+    padding: 0vw;
+        
+    position: absolute;
+    
+    top: 79vh;
+    
+    left: 1vw;
+    
+    font-size: 3vw;
+    
+    transition: .5s ease;
+    
+}
+
+.left4Texthover
+{
+    
+    height: 5vh;
+    
+    width: 25vw;
+    
+    padding: 0vw;
+        
+    position: absolute;
+    
+    top: 81vh;
+    
+    left: 3vw;
+    
+    font-family: 'Fredericka the Great', cursive;
+    
+    font-size: 3vw;
+    
+    color: transparent;
+    
+    transition: .5s ease;
+
+}
+
+.left4TexthoverLink
+{
+    color: transparent;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.left4:hover
+{
+    
+    width : 25vw;
+       
+    padding-right: 0vw;
+            
+}
+
+.left4:hover .left4Text
+{
+    
+    display: none;
+        
+}
+
+.left4:hover .left4Texthover
+{
+    
+    color: black;
+        
+}
+
+.left4:hover .left4TexthoverLink
+{
+    
+    color: black;
+        
+}
+
+.center
+{
+    
+    width: 50vw;
+    
+    height: 95vh;
+    
+}
+
+.right
+{
+    
+    width: 25vw;
+    
+    height: 95vh;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: space-around;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+    
+body
+{
+    background-image: url('assets/Main2.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.left1
+{    
+    width : 20vw;
+    
+    height: 15vh;
+    
+    padding-right: 5vw;
+    
+}
+
+.left2
+{    
+     width : 20vw;
+    
+    height: 15vh;
+    
+    padding-right: 5vw;
+}
+
+.left3
+{    
+     width : 20vw;
+    
+    height: 15vh;
+    
+    padding-right: 5vw;
+    
+}
+    
+.left4
+{    
+    width : 20vw;
+    
+    height: 15vh;
+    
+    padding-right: 5vw;
+    
+}
+.left1Text
+    {
+        font-size: 6vh;
+        top: 8vh;
+        left: 1vw;
+    }
+.left2Text
+    {
+        font-size: 6vh;
+        top: 32vh;
+        left: 1vw;
+    }
+.left3Text
+    {
+        font-size: 6vh;
+        top: 56vh;
+        left: 1vw;
+    }
+.left4Text
+    {
+        font-size: 6vh;
+        top: 79vh;
+        left: 1vw;
+    }
+.left1Texthover
+{
+    
+        
+        
+    position: absolute;
+    
+    top: 8vh;
+    
+    left: 3vw;
+    
+    font-family: 'Fredericka the Great', cursive;
+    
+    font-size: 3vh;
+    
+    color: transparent;
+    
+    transition: .5s ease;
+
+}
+
+    .left2Texthover
+{
+    
+        
+        
+    position: absolute;
+    
+    top: 32vh;
+    
+    left: 3vw;
+    
+    font-family: 'Fredericka the Great', cursive;
+    
+    font-size: 3vh;
+    
+    color: transparent;
+    
+    transition: .5s ease;
+
+}
+    
+.left3Texthover
+{
+    
+        
+        
+    position: absolute;
+    
+    top: 56vh;
+    
+    left: 3vw;
+    
+    font-family: 'Fredericka the Great', cursive;
+    
+    font-size: 3vh;
+    
+    color: transparent;
+    
+    transition: .5s ease;
+
+}
+.left4Texthover
+{
+    
+        
+        
+    position: absolute;
+    
+    top: 79vh;
+    
+    left: 3vw;
+    
+    font-family: 'Fredericka the Great', cursive;
+    
+    font-size: 3vh;
+    
+    color: transparent;
+    
+    transition: .5s ease;
+
+}
+.left1
+{
+    
+    width : 40vw;
+       
+    padding-right: 0vw;
+            
+}
+
+.left1Text
+{
+    
+    display: none;
+        
+}
+
+.left1Texthover
+{
+    
+    color: black;
+        
+}
+
+.left1TexthoverLink
+{
+    
+    color: black;
+        
+}
+
+    .left2
+{
+    
+    width : 40vw;
+       
+    padding-right: 0vw;
+            
+}
+
+.left2Text
+{
+    
+    display: none;
+        
+}
+
+.left2Texthover
+{
+    
+    color: black;
+        
+}
+
+.left2TexthoverLink
+{
+    
+    color: black;
+        
+}
+.left3
+{
+    
+    width : 40vw;
+       
+    padding-right: 0vw;
+            
+}
+
+.left3Text
+{
+    
+    display: none;
+        
+}
+
+.left3Texthover
+{
+    
+    color: black;
+        
+}
+
+.left3TexthoverLink
+{
+    
+    color: black;
+        
+}
+.left4
+{
+    
+    width : 40vw;
+       
+    padding-right: 0vw;
+            
+}
+
+.left4Text
+{
+    
+    display: none;
+        
+}
+
+.left4Texthover
+{
+    
+    color: black;
+        
+}
+
+.left4TexthoverLink
+{
+    
+    color: black;
+        
+}    
+}

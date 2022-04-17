@@ -1,0 +1,97 @@
+body
+{
+    background-color: rgb(0, 0, 0);
+}
+
+.page
+{
+    
+    height:95vh;
+    
+    width:98vw;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: space-around;
+        
+}
+
+.top
+{
+    
+    height: 50vh;
+    
+    font-family: 'VT323', monospace;    
+    
+    font-size: 5vh;
+    
+    color: white;
+    
+    transition: .5s ease;
+    
+}
+
+.bottom
+{
+    
+    height: 30vh;
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    
+}
+
+.sleeping
+{
+    height: 210px;
+    width: 280px;
+}
+
+
+.anime
+{
+    height: 210px;
+    width: 280px;
+}
+
+
+.back
+{
+    height: 5vh;
+    width: 2.5vw;
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+}
+
+@media only screen and (max-width:1200px){
+    
+    
+    .top
+    {
+        font-size 5vh;
+    }
+    
+    
+    .bottom
+    {
+        width: 100vw;
+        
+        align-items: center;
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: space-around;
+        
+        flex-wrap: wrap;
+    }
+    
+    
+}
